@@ -1,0 +1,61 @@
+2021-02-18 20:29:26,538 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-02-18 20:29:27,451 [Worker-1: Loading available Gradle versions] ERROR o.e.b.c.i.u.g.PublishedGradleVersions - Cannot write Gradle version information cache file.
+java.io.FileNotFoundException: C:\Users\Z210\.tooling\gradle\versions.json (Acesso negado)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:291)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:234)
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:193)
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:181)
+	at com.google.common.io.ByteSink$AsCharSink.openStream(ByteSink.java:149)
+	at com.google.common.io.CharSource$StringCharSource.copyTo(CharSource.java:648)
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.storeCacheVersionsFile(PublishedGradleVersions.java:184)
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:150)
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToUpdateOutdatedVersionsFile(PublishedGradleVersions.java:133)
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:117)
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:60)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2021-02-18 20:30:19,101 [Worker-0: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.mmelero:cursomc01:0.0.1-SNAPSHOT @ C:\work\CourseJava\ws-sts\spring-boot-ionic-backend\cursomc01\cursomc01\pom.xml.
+2021-02-18 20:30:20,450 [Worker-0: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /cursomc01/src/main/java
+2021-02-18 20:30:20,451 [Worker-0: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /cursomc01/src/main/resources
+2021-02-18 20:30:20,464 [Worker-0: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /cursomc01/src/main/resources
+2021-02-18 20:30:20,482 [Worker-0: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /cursomc01/src/test/java
+2021-02-18 20:30:21,880 [Worker-0: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 4 sec
+2021-02-18 20:30:21,885 [Worker-0: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-02-18 20:30:22,650 [Worker-0: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.mmelero:cursomc01:0.0.1-SNAPSHOT @ C:\work\CourseJava\ws-sts\spring-boot-ionic-backend\cursomc01\cursomc01\pom.xml.
+2021-02-18 20:30:23,812 [Worker-0: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /cursomc01/src/main/java
+2021-02-18 20:30:23,812 [Worker-0: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /cursomc01/src/main/resources
+2021-02-18 20:30:23,813 [Worker-0: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /cursomc01/src/main/resources
+2021-02-18 20:30:23,814 [Worker-0: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /cursomc01/src/test/java
+2021-02-18 20:30:24,394 [Worker-0: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2021-02-18 20:30:25,295 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-18 20:30:25,295 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-18 20:30:25,299 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-18 20:30:25,312 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-18 20:30:25,315 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-18 20:30:25,316 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-18 20:30:25,316 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\work\CourseJava\ws-sts\spring-boot-ionic-backend\cursomc01\cursomc01\src\test\resources
+2021-02-18 20:30:26,999 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-18 20:30:26,999 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-18 20:30:27,000 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-18 20:30:27,000 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-18 20:30:27,002 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-18 20:30:27,002 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-18 20:30:27,002 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\work\CourseJava\ws-sts\spring-boot-ionic-backend\cursomc01\cursomc01\src\test\resources
+2021-02-18 20:32:50,663 [Worker-10: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.mmelero:cursomc01:0.0.1-SNAPSHOT @ C:\work\CourseJava\ws-sts\spring-boot-ionic-backend\cursomc01\cursomc01\pom.xml.
+2021-02-18 20:32:51,574 [Worker-10: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /cursomc01/src/main/java
+2021-02-18 20:32:51,575 [Worker-10: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /cursomc01/src/main/resources
+2021-02-18 20:32:51,583 [Worker-10: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /cursomc01/src/main/resources
+2021-02-18 20:32:51,593 [Worker-10: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /cursomc01/src/test/java
+2021-02-18 20:32:52,061 [Worker-10: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 2 sec
+2021-02-18 20:32:52,063 [Worker-10: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-02-18 20:32:52,919 [Worker-10: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.mmelero:cursomc01:0.0.1-SNAPSHOT @ C:\work\CourseJava\ws-sts\spring-boot-ionic-backend\cursomc01\cursomc01\pom.xml.
+2021-02-18 20:32:53,957 [Worker-10: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /cursomc01/src/main/java
+2021-02-18 20:32:53,958 [Worker-10: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /cursomc01/src/main/resources
+2021-02-18 20:32:53,961 [Worker-10: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /cursomc01/src/main/resources
+2021-02-18 20:32:53,970 [Worker-10: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /cursomc01/src/test/java
+2021-02-18 20:32:54,569 [Worker-10: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2021-02-18 20:32:55,402 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-18 20:32:55,402 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-18 20:32:55,402 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-18 20:32:55,421 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-18 20:32:55,445 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
